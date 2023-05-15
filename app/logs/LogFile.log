@@ -1,0 +1,12 @@
+[2023-05-12 16:08:54.091] [main] INFO  i.f.di.rb.pdfextractor.Main - ************** Scemo chi legge **********************ciao fregna
+[2023-05-12 16:55:22.054] [main] INFO  i.f.di.rb.pdfextractor.Main - [S] *********** PDF BOX - STARTED *********** 
+[2023-05-12 16:55:22.057] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -i is missing...
+[2023-05-12 16:55:22.057] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-12 16:55:40.195] [main] INFO  i.f.di.rb.pdfextractor.Main - [S] *********** PDF BOX - STARTED *********** 
+[2023-05-12 16:55:40.199] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -i is missing...
+[2023-05-12 16:55:40.200] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-12 17:03:23.102] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-12 17:04:04.505] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-12 17:07:22.538] [main] INFO  i.f.di.rb.pdfextractor.Main - [S] *********** PDF BOX - STARTED *********** 
+[2023-05-12 17:07:55.485] [main] INFO  i.f.di.rb.pdfextractor.Main - [S] *********** PDF BOX - STARTED *********** 
+[2023-05-12 17:07:55.490] [main] INFO  i.f.di.rb.pdfextractor.Main - ciao a tutti
