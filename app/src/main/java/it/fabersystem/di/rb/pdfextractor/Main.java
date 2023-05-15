@@ -9,11 +9,8 @@ import ch.qos.logback.classic.encoder.PatternLayoutEncoder;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.FileAppender;
 
-import java.nio.file.Path;
-
 import org.apache.commons.cli.*;
-import org.apache.commons.io.FileUtils;
-import org.apache.tika.Tika;
+
 
 public class Main {
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
@@ -32,15 +29,17 @@ public class Main {
             if (line.hasOption('l'))
                 setupLogger(line.getOptionValue('l'), line.hasOption('v'));
             logger.info("*********** PDF BOX - STARTED ***********");
-            
+            /* 
             // Controllo dei campi obbligatori
             if (!line.hasOption("i")) {
                 logger.error("Mandatory field -i is missing...");
                 throw new ParseException("Missing mandatory fields");
             }
+            */
+            String nomefile = "C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf";
+            String pdf = Process.elabpdf(nomefile);
 
-            logger.info("ciao a tutti");
-             
+            logger.info(pdf);
         } catch (ParseException e) {
             logger.error("Invalid arguments");
             new HelpFormatter().printHelp("otf-to-pdf", options);

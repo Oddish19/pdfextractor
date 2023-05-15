@@ -10,3 +10,16 @@
 [2023-05-12 17:07:22.538] [main] INFO  i.f.di.rb.pdfextractor.Main - [S] *********** PDF BOX - STARTED *********** 
 [2023-05-12 17:07:55.485] [main] INFO  i.f.di.rb.pdfextractor.Main - [S] *********** PDF BOX - STARTED *********** 
 [2023-05-12 17:07:55.490] [main] INFO  i.f.di.rb.pdfextractor.Main - ciao a tutti
+[2023-05-15 17:13:28.126] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-15 17:13:28.130] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -i is missing...
+[2023-05-15 17:13:28.131] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-15 17:13:55.772] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-15 17:13:55.784] [main] INFO  i.f.di.rb.pdfextractor.Main - RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf
+[2023-05-15 17:15:16.888] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-15 17:15:16.902] [main] INFO  i.f.di.rb.pdfextractor.Main - C:\Users\marco.oddi\Desktop\pdfbox\app\src\test\resourcesRBIT04_VATREP_202202_2023_05_08_14_20_12.pdf
+[2023-05-15 17:15:31.195] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-15 17:15:31.257] [main] DEBUG org.apache.tika.config.TikaConfig - loading tika config from defaults; no config file specified
+[2023-05-15 17:15:31.711] [main] INFO  i.f.di.rb.pdfextractor.Main - C:\Users\marco.oddi\Desktop\pdfbox\app\src\test\resources\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf
+[2023-05-15 17:22:50.843] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-15 17:22:50.884] [main] DEBUG org.apache.tika.config.TikaConfig - loading tika config from defaults; no config file specified
+[2023-05-15 17:22:51.234] [main] INFO  i.f.di.rb.pdfextractor.Main - C:\Users\marco.oddi\Desktop\pdfbox\app\src\test\resources\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf
