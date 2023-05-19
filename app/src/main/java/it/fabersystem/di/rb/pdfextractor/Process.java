@@ -31,7 +31,7 @@ public class Process {
         }
 
         String regex1 = "Titolo suppl\\.\\s+(.+)";
-        String regex2 = "N\\.\\report\\.\\s+(.+)";
+        String regex2 = "(N\\. report *)(\\d+)";
         
         Pattern pattern = Pattern.compile(regex1);
         Matcher match = pattern.matcher(dateextract);
@@ -49,7 +49,7 @@ public class Process {
         boolean found = false;
 
         while (matcher2.find()) {
-            String match2 = matcher2.group(1);
+            String match2 = matcher2.group(2);
             Nreport = match2;
             System.out.println("Testo dopo N. report: " + match2);
             found = true;
@@ -58,7 +58,7 @@ public class Process {
         if (!found) {
             System.out.println("Nessun match per la regex N. report");
         }
-        dateextract = Nreport + titolo;
+        dateextract = Nreport +" " +titolo;
         return dateextract;  
         
     }
