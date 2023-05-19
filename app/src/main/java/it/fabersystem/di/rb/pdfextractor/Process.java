@@ -1,40 +1,32 @@
 package it.fabersystem.di.rb.pdfextractor;
 
-import java.io.FileInputStream;
+import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 
-import org.apache.tika.metadata.Metadata;
-import org.apache.tika.parser.AutoDetectParser;
-import org.apache.tika.parser.ParseContext;
-import org.apache.tika.sax.BodyContentHandler;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
 
 public class Process {
     
-    public static String elabpdf(String nomefile){
-        InputStream stream = null; 
-        String fileName = nomefile;
-        try { 
-            stream = new FileInputStream(fileName); 
-            AutoDetectParser parser = new AutoDetectParser(); 
-            BodyContentHandler handler = new BodyContentHandler(-1); 
-            Metadata metadata = new Metadata(); 
-            parser.parse(stream, handler, metadata, new ParseContext()); 
-            System.out.println(handler.toString()); 
-        }catch (Exception e) { 
-            e.printStackTrace(); 
-        }finally { 
-            if (stream != null) 
-                try { 
-                    stream.close(); 
-                } catch (IOException e) { 
-                    System.out.println("Error closing stream"); 
-                } 
-        } 
+    public static String elabpdfbox (String PDFfile){
+        String dateextract = "";
+        try {
+            File file = new File(PDFfile);
+            PDDocument document = PDDocument.load(file);
+                
+            PDFTextStripper stripper = new PDFTextStripper();
+            stripper.setStartPage(1);
+            stripper.setEndPage(1); 
+            
+            String content = stripper.getText(document);
+            dateextract = content;
+
+            document.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return dateextract;  
         
-        return fileName;
-       
-    } 
-  
+    }
 
 }

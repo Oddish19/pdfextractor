@@ -23,3 +23,84 @@
 [2023-05-15 17:22:50.843] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
 [2023-05-15 17:22:50.884] [main] DEBUG org.apache.tika.config.TikaConfig - loading tika config from defaults; no config file specified
 [2023-05-15 17:22:51.234] [main] INFO  i.f.di.rb.pdfextractor.Main - C:\Users\marco.oddi\Desktop\pdfbox\app\src\test\resources\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf
+[2023-05-19 12:15:42.436] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 12:15:42.480] [main] DEBUG org.apache.tika.config.TikaConfig - loading tika config from defaults; no config file specified
+[2023-05-19 12:15:42.823] [main] INFO  i.f.di.rb.pdfextractor.Main - 
+[2023-05-19 12:19:45.410] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 12:19:45.425] [main] DEBUG org.apache.tika.config.TikaConfig - loading tika config from defaults; no config file specified
+[2023-05-19 12:19:45.759] [main] INFO  i.f.di.rb.pdfextractor.Main - 
+[2023-05-19 12:27:03.551] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 12:27:03.578] [main] DEBUG org.apache.tika.config.TikaConfig - loading tika config from defaults; no config file specified
+[2023-05-19 12:27:03.967] [main] INFO  i.f.di.rb.pdfextractor.Main - 
+[2023-05-19 12:27:38.527] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 12:27:38.544] [main] DEBUG org.apache.tika.config.TikaConfig - loading tika config from defaults; no config file specified
+[2023-05-19 12:27:38.834] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 
+[2023-05-19 15:31:30.560] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 15:44:59.176] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 15:44:59.901] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: C:\Users\marco.oddi\Desktop\pdfbox\app\src\test\resources\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf
+[2023-05-19 15:45:45.910] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 15:45:46.595] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: C:\Users\marco.oddi\Desktop\pdfbox\app\src\test\resources\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf
+[2023-05-19 15:48:30.463] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 15:48:31.076] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: C:\Users\marco.oddi\Desktop\pdfbox\app\src\test\resources\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf
+[2023-05-19 16:08:20.350] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 16:08:21.019] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: C:\Users\marco.oddi\Desktop\pdfbox\app\src\test\resources\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf
+[2023-05-19 16:22:15.057] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 16:22:16.001] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: C:\Users\marco.oddi\Desktop\pdfbox\app\src\test\resources\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf
+[2023-05-19 16:27:58.202] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 16:27:58.901] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: Campo di selezione                     Valore                                  
+Società                                IT04                                    
+Esercizio                              2022                                    
+Ledger                                 0L                                      
+Data di reg.                           01.02.2022          28.02.2022          
+Data convers.per divisa interna altern. 21.07.2019                              
+Codice IVA                             DF                                      
+                                       KS                                      
+                                       DU                                      
+                                       KU                                      
+                                       DT                                      
+                                       DH                                      
+                                       DI                                      
+                                       DJ                                      
+                                       DK                                      
+                                       DL                                      
+                                       DM                                      
+                                       DN                                      
+                                       DO                                      
+                                       DP                                      
+                                       DQ                                      
+                                       H2                                      
+                                       G5                                      
+                                       DR                                      
+                                       KT                                      
+                                       DS                                      
+                                       DE                                      
+                                       G4                                      
+                                       A9                                      
+                                       DV                                      
+                                       EN                                      
+                                       L4                                      
+                                       L5                                      
+                                       EV                                      
+                                       EW                                      
+                                       EX                                      
+                                       EP                                      
+                                       HA                                      
+                                       L6                                      
+X - Selezionare IVA vendite            X                                       
+Nome sessione                          RFUMSV00                                
+Leggere dati indirizzo                 X                                       
+Output testata breve                   X                                       
+Codice classif.                        1                                       
+Lingua di output                       I                                       
+Stampare riga microfiche               X                                       
+Titolo suppl.                          REGISTRO IVA VENDITE                     
+Vis. partite singole IVA               X                                       
+Layout                                 /ZITALYEUAQN                            
+IVA vendite: lista totali              X                                       
+Layout                                 /ITALY T                                
+Non aggiornare documenti               X                                       
+Memorizzare n. doc. e n. pag.          X                                       
+N. report                              42                                      
+Statistica date Numero
+Record trasmessi 14.786
+

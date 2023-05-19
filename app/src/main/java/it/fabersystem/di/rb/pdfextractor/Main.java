@@ -36,10 +36,11 @@ public class Main {
                 throw new ParseException("Missing mandatory fields");
             }
             */
-            String nomefile = "C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf";
-            String pdf = Process.elabpdf(nomefile);
+            String file = "C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf";
+            String pdf = Process.elabpdfbox(file);
 
-            logger.info(pdf);
+            logger.info("il file contiene: "+pdf);
+
         } catch (ParseException e) {
             logger.error("Invalid arguments");
             new HelpFormatter().printHelp("otf-to-pdf", options);
