@@ -317,3 +317,7 @@ Record trasmessi 14.786
 [2023-05-19 17:21:49.937] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: REGISTRO IVA VENDITE                     
 [2023-05-19 17:23:16.983] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
 [2023-05-19 17:23:17.710] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: REGISTRO IVA VENDITE                     
+[2023-05-19 18:22:22.676] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 18:22:23.799] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: N. report                              REGISTRO IVA VENDITE                     
+[2023-05-19 18:23:10.477] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-19 18:23:11.272] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42REGISTRO IVA VENDITE                     
