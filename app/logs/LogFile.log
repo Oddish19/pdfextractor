@@ -321,3 +321,247 @@ Record trasmessi 14.786
 [2023-05-19 18:22:23.799] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: N. report                              REGISTRO IVA VENDITE                     
 [2023-05-19 18:23:10.477] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
 [2023-05-19 18:23:11.272] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42REGISTRO IVA VENDITE                     
+[2023-05-22 10:02:03.920] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 10:02:07.713] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 REGISTRO IVA VENDITE                     
+[2023-05-22 10:02:56.373] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 10:02:57.198] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:34:35.571] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:34:36.338] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:35:10.325] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:35:11.132] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:36:51.006] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:36:51.888] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:40:01.906] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:40:02.772] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:40:40.411] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:40:41.080] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:42:47.226] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:42:48.058] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:54:41.936] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:54:42.734] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:54:57.281] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:54:57.956] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:55:24.827] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:55:26.247] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:55:36.378] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:55:37.085] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:57:22.975] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:57:23.945] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:58:27.173] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:58:28.160] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 12:58:51.804] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 12:58:52.643] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 13:02:33.243] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 13:02:34.174] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTROIVAVENDITE
+[2023-05-22 14:35:57.302] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 14:35:58.446] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 14:41:06.255] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 14:41:07.183] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 14:43:37.513] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 14:43:38.320] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 14:45:01.436] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 14:45:02.388] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 14:45:54.402] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 14:45:55.316] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 14:46:36.444] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 14:46:37.348] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 14:48:04.713] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 14:48:05.679] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 14:50:14.873] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 14:50:15.883] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 14:50:37.051] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 14:50:37.875] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 14:54:34.985] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 14:54:35.998] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 14:57:27.726] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 14:57:28.648] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 15:16:59.969] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 15:17:00.797] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 15:17:26.496] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 15:17:27.360] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 15:17:47.318] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 15:17:48.260] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 15:18:05.010] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 15:18:05.679] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 15:22:39.421] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 15:22:40.248] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 16:29:51.947] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 16:29:52.796] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 16:30:52.700] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 16:30:53.499] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-22 16:39:24.071] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 16:39:25.530] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: Campo di selezione                     Valore                                  
+Società                                IT04                                    
+Esercizio                              2022                                    
+Ledger                                 0L                                      
+Data di reg.                           01.02.2022          28.02.2022          
+Data convers.per divisa interna altern. 21.07.2019                              
+Codice IVA                             DF                                      
+                                       KS                                      
+                                       DU                                      
+                                       KU                                      
+                                       DT                                      
+                                       DH                                      
+                                       DI                                      
+                                       DJ                                      
+                                       DK                                      
+                                       DL                                      
+                                       DM                                      
+                                       DN                                      
+                                       DO                                      
+                                       DP                                      
+                                       DQ                                      
+                                       H2                                      
+                                       G5                                      
+                                       DR                                      
+                                       KT                                      
+                                       DS                                      
+                                       DE                                      
+                                       G4                                      
+                                       A9                                      
+                                       DV                                      
+                                       EN                                      
+                                       L4                                      
+                                       L5                                      
+                                       EV                                      
+                                       EW                                      
+                                       EX                                      
+                                       EP                                      
+                                       HA                                      
+                                       L6                                      
+X - Selezionare IVA vendite            X                                       
+Nome sessione                          RFUMSV00                                
+Leggere dati indirizzo                 X                                       
+Output testata breve                   X                                       
+Codice classif.                        1                                       
+Lingua di output                       I                                       
+Stampare riga microfiche               X                                       
+Titolo suppl.                          REGISTRO IVA VENDITE                     
+Vis. partite singole IVA               X                                       
+Layout                                 /ZITALYEUAQN                            
+IVA vendite: lista totali              X                                       
+Layout                                 /ITALY T                                
+Non aggiornare documenti               X                                       
+Memorizzare n. doc. e n. pag.          X                                       
+N. report                              42                                      
+Statistica date Numero
+Record trasmessi 14.786
+
+[2023-05-22 16:46:42.236] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 16:46:43.113] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: Campo di selezione                     Valore                                  
+Società                                IT04                                    
+Esercizio                              2022                                    
+Ledger                                 0L                                      
+Data di reg.                           01.02.2022          28.02.2022          
+Data convers.per divisa interna altern. 21.07.2019                              
+Codice IVA                             DF                                      
+                                       KS                                      
+                                       DU                                      
+                                       KU                                      
+                                       DT                                      
+                                       DH                                      
+                                       DI                                      
+                                       DJ                                      
+                                       DK                                      
+                                       DL                                      
+                                       DM                                      
+                                       DN                                      
+                                       DO                                      
+                                       DP                                      
+                                       DQ                                      
+                                       H2                                      
+                                       G5                                      
+                                       DR                                      
+                                       KT                                      
+                                       DS                                      
+                                       DE                                      
+                                       G4                                      
+                                       A9                                      
+                                       DV                                      
+                                       EN                                      
+                                       L4                                      
+                                       L5                                      
+                                       EV                                      
+                                       EW                                      
+                                       EX                                      
+                                       EP                                      
+                                       HA                                      
+                                       L6                                      
+X - Selezionare IVA vendite            X                                       
+Nome sessione                          RFUMSV00                                
+Leggere dati indirizzo                 X                                       
+Output testata breve                   X                                       
+Codice classif.                        1                                       
+Lingua di output                       I                                       
+Stampare riga microfiche               X                                       
+Titolo suppl.                          REGISTRO IVA VENDITE                     
+Vis. partite singole IVA               X                                       
+Layout                                 /ZITALYEUAQN                            
+IVA vendite: lista totali              X                                       
+Layout                                 /ITALY T                                
+Non aggiornare documenti               X                                       
+Memorizzare n. doc. e n. pag.          X                                       
+N. report                              42                                      
+Statistica date Numero
+Record trasmessi 14.786
+
+[2023-05-22 16:55:46.409] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-22 16:55:47.676] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: Campo di selezione                     Valore                                  
+Società                                IT04                                    
+Esercizio                              2022                                    
+Ledger                                 0L                                      
+Data di reg.                           01.02.2022          28.02.2022          
+Data convers.per divisa interna altern. 21.07.2019                              
+Codice IVA                             DF                                      
+                                       KS                                      
+                                       DU                                      
+                                       KU                                      
+                                       DT                                      
+                                       DH                                      
+                                       DI                                      
+                                       DJ                                      
+                                       DK                                      
+                                       DL                                      
+                                       DM                                      
+                                       DN                                      
+                                       DO                                      
+                                       DP                                      
+                                       DQ                                      
+                                       H2                                      
+                                       G5                                      
+                                       DR                                      
+                                       KT                                      
+                                       DS                                      
+                                       DE                                      
+                                       G4                                      
+                                       A9                                      
+                                       DV                                      
+                                       EN                                      
+                                       L4                                      
+                                       L5                                      
+                                       EV                                      
+                                       EW                                      
+                                       EX                                      
+                                       EP                                      
+                                       HA                                      
+                                       L6                                      
+X - Selezionare IVA vendite            X                                       
+Nome sessione                          RFUMSV00                                
+Leggere dati indirizzo                 X                                       
+Output testata breve                   X                                       
+Codice classif.                        1                                       
+Lingua di output                       I                                       
+Stampare riga microfiche               X                                       
+Titolo suppl.                          REGISTRO IVA VENDITE                     
+Vis. partite singole IVA               X                                       
+Layout                                 /ZITALYEUAQN                            
+IVA vendite: lista totali              X                                       
+Layout                                 /ITALY T                                
+Non aggiornare documenti               X                                       
+Memorizzare n. doc. e n. pag.          X                                       
+N. report                              42                                      
+Statistica date Numero
+Record trasmessi 14.786
+
+[2023-05-22 16:56:16.237] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-23 12:49:57.445] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
