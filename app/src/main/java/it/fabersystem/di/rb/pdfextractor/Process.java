@@ -34,10 +34,10 @@ public class Process {
         }
         
         try {
-            File file = new File(PDFfile); // Specifica il percorso del tuo file PDF
-            PDDocument document = PDDocument.load(file);
+            File file1 = new File(PDFfile); // Specifica il percorso del tuo file PDF
+            PDDocument document1 = PDDocument.load(file1);
             
-            PDFTextStripperByArea stripper = new PDFTextStripperByArea();
+            PDFTextStripperByArea stripper1 = new PDFTextStripperByArea();
             
             // Specifica le coordinate del rettangolo da cui estrarre il testo
             float x = 265; // Coordinata x del rettangolo
@@ -45,13 +45,13 @@ public class Process {
             float width = 333; // Larghezza del rettangolo
             float height = 38; // Altezza del rettangolo
             
-            stripper.addRegion("region", new java.awt.Rectangle((int) x, (int) y, (int) width, (int) height));
+            stripper1.addRegion("region", new java.awt.Rectangle((int) x, (int) y, (int) width, (int) height));
             
-            for (int pageNumber = 1; pageNumber <= document.getNumberOfPages(); pageNumber++) {
-                stripper.extractRegions(document.getPage(pageNumber));
+            for (int pageNumber = 1; pageNumber <= document1.getNumberOfPages(); pageNumber++) {
+                stripper1.extractRegions(document1.getPage(pageNumber));
             }
             
-            document.close();
+            document1.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
