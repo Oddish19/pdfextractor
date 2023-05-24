@@ -4,21 +4,24 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
-import org.apache.pdfbox.text.PDFTextStripperByArea;
+
 
 public class Process {
     
-    public static String elabpdfbox (String PDFfile){
-        String dateextract = "";
-
+    public static String categoria (Path PDFfile){
+        String datiestratti = "";
+        
         //estrae tutto il contenuto della prima pagina
         try {
-            File file = new File(PDFfile);
+            File file = new File(PDFfile.toString());
             PDDocument document = PDDocument.load(file);
                 
             PDFTextStripper stripper = new PDFTextStripper();
@@ -26,67 +29,12 @@ public class Process {
             stripper.setEndPage(1); 
             
             String content = stripper.getText(document);
-            dateextract = content;
+            datiestratti = content;
 
             document.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
-        try {
-            File file1 = new File(PDFfile); // Specifica il percorso del tuo file PDF
-            PDDocument document1 = PDDocument.load(file1);
-            
-            PDFTextStripperByArea stripper1 = new PDFTextStripperByArea();
-            
-            // Specifica le coordinate del rettangolo da cui estrarre il testo
-            float x = 265; // Coordinata x del rettangolo
-            float y = 2; // Coordinata y del rettangolo
-            float width = 333; // Larghezza del rettangolo
-            float height = 38; // Altezza del rettangolo
-            
-            stripper1.addRegion("region", new java.awt.Rectangle((int) x, (int) y, (int) width, (int) height));
-            
-            for (int pageNumber = 1; pageNumber <= document1.getNumberOfPages(); pageNumber++) {
-                stripper1.extractRegions(document1.getPage(pageNumber));
-            }
-            
-            document1.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-        return dateextract;  
-        
-    }
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public static void  recuperadati (String pathcsv,String datiestratti) throws IOException{
-
-        // prende il contenuto del file e lo mette in una stringa
-        String fileContent = Files.readString(Path.of(pathcsv));
-        System.out.println("il file contine: " +fileContent);
-        
-        // prendo anno e mese da nome file
-        String annomese = fileContent.substring(14, 20);
-        System.out.println("anno e mese: " +annomese);
-        
-        // metodo che estrae la categoria
-        String categoria = categoria(datiestratti);
-        System.out.println("Categoria del documento: " +categoria);
-
-
-
-        
-        //procedo con la creazione del file csv
-        createcsv();
-    }
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public static void createcsv(){
-
-    }
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public static String categoria(String datiestratti){
         
         String titolo = "";
         String Nreport = "";
@@ -119,9 +67,82 @@ public class Process {
         if (!found) {
             System.out.println("Nessun match per la regex N. report");
         }
-        datiestratti = ";" +Nreport +" - " +titolo;
+        String categoria = Nreport +" - " +titolo;
 
-        return datiestratti;
+        return categoria;  
+        
     }
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public static void  recuperadati (String pathcsv,String categoria,int pag) throws IOException{
 
+        // prende il contenuto del file e lo mette in una stringa
+        String fileContent = Files.readString(Path.of(pathcsv));
+        System.out.println("il file contine: " +fileContent);
+        String puntoevirgola = ";";
+        int indiceCarattere = fileContent.indexOf(puntoevirgola);
+        String nomefile = fileContent.substring(0, indiceCarattere);
+        String societa = fileContent.substring(indiceCarattere +1);
+
+
+        // prendo anno e mese da nome file
+        String annomese = fileContent.substring(14, 20);
+        System.out.println("anno e mese: " +annomese);
+        
+        //dati estratti contiene la categoria
+        String categoria1 = categoria;
+        System.out.println("La categoria è: " +categoria1);
+        
+        //numero di pagine nel pdf
+         System.out.println("Le pagine del pdf sono: " +pag);
+        
+        List<String> dataList = new ArrayList<>();
+
+        // Aggiungi dati all'ArrayList
+        dataList.add(nomefile);
+        dataList.add(societa);
+        dataList.add("VATREP");
+        dataList.add(annomese);
+        dataList.add(categoria1);
+        dataList.add("1");
+        dataList.add(String.valueOf(pag));
+        dataList.add(annomese.substring(0, 4));
+        dataList.add(annomese.substring(4, 6));
+        System.out.println(dataList);
+        //procedo con la creazione del file csv
+        createcsv(dataList, nomefile);
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public static int numpag(String PDFfile){
+        try {
+            PDDocument document = PDDocument.load(new File(PDFfile));
+            int numPages = document.getNumberOfPages();
+            document.close();
+            
+            System.out.println("Le pagine del file pdf sono: "+numPages);
+            return numPages;
+            
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        
+        return 0;
+    }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public static void createcsv (List<String> datalList, String nomefile){
+        String csvFile = "C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\" + nomefile + ".csv";
+
+        StringBuilder newStr = new StringBuilder();
+        datalList.forEach(s -> {
+            newStr.append(s + ";");
+        });
+
+        String outString = newStr.toString().substring(0, newStr.length() - 1);
+
+        try {
+            Files.writeString(Path.of(csvFile), outString, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
+        } catch (IOException e) {
+            System.err.println("Can't write file to path -> " + csvFile);
+            throw new RuntimeException("AOO non riesco a scrivere DC");
+        }
+    }
 }

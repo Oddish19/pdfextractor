@@ -10,6 +10,7 @@ import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.FileAppender;
 
 import java.io.IOException;
+import java.nio.file.Path;
 
 import org.apache.commons.cli.*;
 
@@ -31,29 +32,29 @@ public class Main {
             if (line.hasOption('l'))
                 setupLogger(line.getOptionValue('l'), line.hasOption('v'));
             logger.info("*********** PDF BOX - STARTED ***********");
-            /* 
+            
             // Controllo dei campi obbligatori
             if (!line.hasOption("i")) {
                 logger.error("Mandatory field -i is missing...");
                 throw new ParseException("Missing mandatory fields");
             }
-            */
 
-
+            // Marco oddi va in giro con i ferri, ma poi chiamano gli agenti.
             // gli passo il file pdf per prendere da esso i dati
             String filepdf = "C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf";
-            String datiestratti = Process.elabpdfbox(filepdf);
-            logger.info("il file contiene: "+datiestratti);
+            String categoria = Process.categoria(Path.of(line.getOptionValue("i")));
+            logger.info("il file contiene: " + categoria);
 
-
+            // estrae i numeri pagine dal pdf
+            int pag = Process.numpag(filepdf);
+            
             // gli passo il file csv
             String filecsv = "C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT04_VATREP_202202_2023_05_08_14_20_12.csv";
             try {
-                Process.recuperadati(filecsv,datiestratti);
+                Process.recuperadati(filecsv,categoria,pag);
             } catch (IOException e) {
                 logger.error("Non è stato possibile accedere al file .csv ", e);
             }
-
 
         } catch (ParseException e) {
             logger.error("Invalid arguments");

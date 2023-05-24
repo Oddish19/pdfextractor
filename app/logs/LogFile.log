@@ -566,3 +566,94 @@ Record trasmessi 14.786
 [2023-05-22 16:56:16.237] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
 [2023-05-23 12:49:57.445] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
 [2023-05-23 16:10:16.056] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 09:56:54.236] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 09:56:55.070] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-24 09:56:55.297] [main] INFO  i.f.di.rb.pdfextractor.Main - le pag sono:             KS                                      
+            DU                                      
+            KU                                      
+            DT                                      
+            DH                                      
+            DI                                      
+            DJ                                      
+            DK                                      
+            DL                                      
+            DM                                      
+            DN                                      
+            DO                                      
+
+[2023-05-24 09:58:22.800] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 09:58:23.386] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: ;42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:03:49.187] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:03:49.812] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:04:10.227] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:04:10.875] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:04:25.892] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:04:26.595] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:07:38.159] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:07:39.067] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:08:17.090] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:08:17.738] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:08:42.312] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:08:42.996] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:08:58.833] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:08:59.495] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:11:57.901] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:11:58.769] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:12:17.984] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:12:18.761] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:15:31.753] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:15:32.797] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:16:50.292] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:16:50.950] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:33:34.828] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:33:35.684] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:36:14.500] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:36:15.213] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:36:45.565] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:36:46.269] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 10:37:13.863] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 10:37:14.580] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 11:55:45.195] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 11:55:45.991] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 11:56:08.975] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 11:56:09.647] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 11:56:30.567] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 11:56:31.468] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:02:27.844] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:02:28.637] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:03:57.420] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:03:58.113] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:05:07.069] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:05:07.786] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:20:44.742] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:20:45.457] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:23:48.681] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:23:49.462] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:27:06.170] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:27:07.072] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:27:33.170] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:27:33.231] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene:  - 
+[2023-05-24 12:29:04.219] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:29:04.896] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:32:16.357] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:32:17.140] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:32:56.547] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:32:57.619] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:34:10.674] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:34:11.379] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:35:38.956] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:35:39.662] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:37:41.478] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:37:42.206] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:40:18.201] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:40:19.007] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 12:40:39.798] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 12:40:40.510] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 14:44:42.215] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 14:44:42.219] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -i is missing...
+[2023-05-24 14:44:42.219] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 14:47:32.605] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 14:47:32.611] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -i is missing...
+[2023-05-24 14:47:32.611] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 14:48:16.118] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 14:48:16.895] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     

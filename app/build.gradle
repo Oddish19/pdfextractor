@@ -16,15 +16,6 @@ repositories {
     mavenCentral()
 }
 
-/*
-sourceSets {
-    main {
-        resources {
-            srcDirs = ["C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\"]
-        }
-    }
-}*/
-
 dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
