@@ -37,17 +37,17 @@ public class Main {
             if (!line.hasOption("i")) {
                 logger.error("Mandatory field -i is missing...");
                 throw new ParseException("Missing mandatory fields");
-            }
+            } 
 
-            // Marco oddi va in giro con i ferri, ma poi chiamano gli agenti.
             // gli passo il file pdf per prendere da esso i dati
-            String filepdf = "C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf";
+            
             String categoria = Process.categoria(Path.of(line.getOptionValue("i")));
             logger.info("il file contiene: " + categoria);
 
             // estrae i numeri pagine dal pdf
-            int pag = Process.numpag(filepdf);
+            int pag = Process.numpag(Path.of(line.getOptionValue("i")));
             
+
             // gli passo il file csv
             String filecsv = "C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT04_VATREP_202202_2023_05_08_14_20_12.csv";
             try {
@@ -87,7 +87,7 @@ public class Main {
         Options options = new Options();
 
         options.addOption("i", "input-file", true, "Input pdf file");
-        options.addOption("l", "log-path", true, "Full Path for storing log (filename included)");
+        options.addOption("l", "log-path", true, "directory file csv");
         options.addOption("v", "verbose", false, "Enable verbose logging (add debug info to the logs)");
 
         return options;

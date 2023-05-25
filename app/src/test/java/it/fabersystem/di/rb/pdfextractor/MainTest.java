@@ -15,12 +15,10 @@ public class MainTest {
     public void mainTest() {
         Path inputPath = Path.of(resourceDir, "RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf");
         
-
-        // java -jar programmadioddi.jar -i /home/tommy/pippo.pdf -o /home
-
         System.out.println(inputPath);
         String[] params = {"-i", inputPath.toAbsolutePath().toString()};
 
         Main.main(params);
     }
+
 }

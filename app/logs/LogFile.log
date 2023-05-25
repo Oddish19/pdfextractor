@@ -657,3 +657,37 @@ Record trasmessi 14.786
 [2023-05-24 14:47:32.611] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
 [2023-05-24 14:48:16.118] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
 [2023-05-24 14:48:16.895] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 15:34:41.322] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 15:34:41.327] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -o is missing...
+[2023-05-24 15:34:41.327] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 15:35:21.177] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 15:35:21.942] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 15:36:17.018] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 15:36:17.976] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-24 15:36:38.402] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 15:36:38.407] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -o is missing...
+[2023-05-24 15:36:38.408] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 15:36:38.422] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 15:40:25.354] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 15:40:25.362] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -o is missing...
+[2023-05-24 15:40:25.363] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 15:40:25.381] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 16:51:30.134] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 16:51:30.138] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -i is missing...
+[2023-05-24 16:51:30.139] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 16:51:43.743] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 16:51:43.747] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -o is missing...
+[2023-05-24 16:51:43.748] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 16:51:43.764] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 16:51:51.424] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 16:51:51.428] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -o is missing...
+[2023-05-24 16:51:51.428] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 16:52:22.748] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 16:52:22.753] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -o is missing...
+[2023-05-24 16:52:22.753] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 16:52:22.767] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 16:53:37.747] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 16:53:37.751] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -o is missing...
+[2023-05-24 16:53:37.751] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-24 16:53:53.948] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-24 16:53:54.799] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     

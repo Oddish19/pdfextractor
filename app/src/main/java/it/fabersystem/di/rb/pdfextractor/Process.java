@@ -112,9 +112,9 @@ public class Process {
         createcsv(dataList, nomefile);
     }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public static int numpag(String PDFfile){
+    public static int numpag(Path PDFfile){
         try {
-            PDDocument document = PDDocument.load(new File(PDFfile));
+            PDDocument document = PDDocument.load(new File(PDFfile.toString()));
             int numPages = document.getNumberOfPages();
             document.close();
             
