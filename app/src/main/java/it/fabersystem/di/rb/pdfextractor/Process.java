@@ -73,43 +73,49 @@ public class Process {
         
     }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public static void  recuperadati (String pathcsv,String categoria,int pag) throws IOException{
+    public static void  recuperadati (Path pathcsv,String categoria,int pag, Path out){
 
         // prende il contenuto del file e lo mette in una stringa
-        String fileContent = Files.readString(Path.of(pathcsv));
-        System.out.println("il file contine: " +fileContent);
-        String puntoevirgola = ";";
-        int indiceCarattere = fileContent.indexOf(puntoevirgola);
-        String nomefile = fileContent.substring(0, indiceCarattere);
-        String societa = fileContent.substring(indiceCarattere +1);
-
-
-        // prendo anno e mese da nome file
-        String annomese = fileContent.substring(14, 20);
-        System.out.println("anno e mese: " +annomese);
-        
-        //dati estratti contiene la categoria
-        String categoria1 = categoria;
-        System.out.println("La categoria è: " +categoria1);
-        
-        //numero di pagine nel pdf
-         System.out.println("Le pagine del pdf sono: " +pag);
-        
-        List<String> dataList = new ArrayList<>();
-
-        // Aggiungi dati all'ArrayList
-        dataList.add(nomefile);
-        dataList.add(societa);
-        dataList.add("VATREP");
-        dataList.add(annomese);
-        dataList.add(categoria1);
-        dataList.add("1");
-        dataList.add(String.valueOf(pag));
-        dataList.add(annomese.substring(0, 4));
-        dataList.add(annomese.substring(4, 6));
-        System.out.println(dataList);
-        //procedo con la creazione del file csv
-        createcsv(dataList, nomefile);
+        String fileContent;
+        try {
+            fileContent = Files.readString(pathcsv);
+            System.out.println("il file contine: " +fileContent);
+            String puntoevirgola = ";";
+            int indiceCarattere = fileContent.indexOf(puntoevirgola);
+            String nomefile = fileContent.substring(0, indiceCarattere);
+            String societa = fileContent.substring(indiceCarattere +1);
+    
+    
+            // prendo anno e mese da nome file
+            String annomese = fileContent.substring(14, 20);
+            System.out.println("anno e mese: " +annomese);
+            
+            //dati estratti contiene la categoria
+            String categoria1 = categoria;
+            System.out.println("La categoria è: " +categoria1);
+            
+            //numero di pagine nel pdf
+             System.out.println("Le pagine del pdf sono: " +pag);
+            
+            List<String> dataList = new ArrayList<>();
+    
+            // Aggiungi dati all'ArrayList
+            dataList.add(nomefile);
+            dataList.add(societa);
+            dataList.add("VATREP");
+            dataList.add(annomese);
+            dataList.add(categoria1);
+            dataList.add("1");
+            dataList.add(String.valueOf(pag));
+            dataList.add(annomese.substring(0, 4));
+            dataList.add(annomese.substring(4, 6));
+            System.out.println(dataList);
+            //procedo con la creazione del file csv
+            createcsv(dataList, nomefile, out);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+       
     }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public static int numpag(Path PDFfile){
@@ -128,8 +134,8 @@ public class Process {
         return 0;
     }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public static void createcsv (List<String> datalList, String nomefile){
-        String csvFile = "C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\" + nomefile + ".csv";
+    public static void createcsv (List<String> datalList, String nomefile,Path out){
+        String csvFile = out + nomefile + ".csv";
 
         StringBuilder newStr = new StringBuilder();
         datalList.forEach(s -> {
@@ -145,4 +151,5 @@ public class Process {
             throw new RuntimeException("AOO non riesco a scrivere DC");
         }
     }
+   
 }

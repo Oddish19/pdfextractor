@@ -13,10 +13,14 @@ public class MainTest {
             
     @Test
     public void mainTest() {
-        Path inputPath = Path.of(resourceDir, "RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf");
-        
-        System.out.println(inputPath);
-        String[] params = {"-i", inputPath.toAbsolutePath().toString()};
+        Path inputPathpdf = Path.of(resourceDir, "RBIT04_VATREP_202202_2023_05_08_14_20_12.pdf");
+        Path inputPathcsv = Path.of(resourceDir, "RBIT04_VATREP_202202_2023_05_08_14_20_12.csv");
+        Path outputPath = Path.of(resourceDir);
+        String[] params = {
+            "-i", inputPathpdf.toAbsolutePath().toString(),
+            "-c", inputPathcsv.toAbsolutePath().toString(), 
+            "-o" , outputPath.toAbsolutePath().toString()
+        };
 
         Main.main(params);
     }
