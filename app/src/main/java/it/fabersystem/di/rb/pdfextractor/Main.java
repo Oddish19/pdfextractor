@@ -9,7 +9,6 @@ import ch.qos.logback.classic.encoder.PatternLayoutEncoder;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.FileAppender;
 
-import java.io.IOException;
 import java.nio.file.Path;
 
 import org.apache.commons.cli.*;
@@ -19,7 +18,7 @@ public class Main {
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
  
-    public static void main(String[] args, String[] params2) throws IOException{
+    public static void main(String[] args){
 
         
         CommandLineParser parser = new DefaultParser();
@@ -28,7 +27,7 @@ public class Main {
         try {
         
             CommandLine line = parser.parse(options, args);
-
+            System.out.println("viva i fratm");
             if (line.hasOption('l'))
                 setupLogger(line.getOptionValue('l'), line.hasOption('v'));
             logger.info("*********** PDF BOX - STARTED ***********");
@@ -57,12 +56,11 @@ public class Main {
             
 
             // gli passo il file csv
-            //String filecsv = "C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT04_VATREP_202202_2023_05_08_14_20_12.csv";
             Process.recuperadati(Path.of(line.getOptionValue("c")),categoria,pag,Path.of(line.getOptionValue("o")));
 
         } catch (ParseException e) {
             logger.error("Invalid arguments");
-            new HelpFormatter().printHelp("otf-to-pdf", options);
+            new HelpFormatter().printHelp("pdf-to-csv", options);
             throw new RuntimeException("impossible to continue elaboration");
         }
     }
@@ -99,6 +97,4 @@ public class Main {
         return options;
     }
 
-    public static void main(String[] params) {
-    }
 }
