@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
@@ -68,7 +69,7 @@ public class Process {
             System.out.println("Nessun match per la regex N. report");
         }
         String categoria = Nreport +" - " +titolo;
-
+        categoria = categoria.substring(0, categoria.length() -34);
         return categoria;  
         
     }
@@ -109,6 +110,13 @@ public class Process {
             dataList.add(String.valueOf(pag));
             dataList.add(annomese.substring(0, 4));
             dataList.add(annomese.substring(4, 6));
+            dataList.add("\r");
+            for (int i = 0; i < dataList.size(); i++) {
+                String element = dataList.get(i);
+                element = element.replaceAll("\n", "");
+                dataList.set(i, element);
+            }
+    
             System.out.println(dataList);
             //procedo con la creazione del file csv
             createcsv(dataList, nomefile, out);
@@ -135,7 +143,10 @@ public class Process {
     }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public static void createcsv (List<String> datalList, String nomefile,Path out){
-        String csvFile = out + nomefile + ".csv";
+        
+        Path writePath = Paths.get(out.toAbsolutePath().toString(), nomefile+".csv");
+        System.out.println(out);
+        System.out.println("Creo il file: " + writePath.toAbsolutePath());
 
         StringBuilder newStr = new StringBuilder();
         datalList.forEach(s -> {
@@ -145,9 +156,9 @@ public class Process {
         String outString = newStr.toString().substring(0, newStr.length() - 1);
 
         try {
-            Files.writeString(Path.of(csvFile), outString, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
+            Files.writeString(writePath, outString, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
         } catch (IOException e) {
-            System.err.println("Can't write file to path -> " + csvFile);
+            System.err.println("Can't write file to path -> " + writePath.toAbsolutePath());
             throw new RuntimeException("AOO non riesco a scrivere DC");
         }
     }

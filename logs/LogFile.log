@@ -4,3 +4,50 @@
 [2023-05-26 09:24:21.094] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
 [2023-05-26 09:24:35.683] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
 [2023-05-26 09:24:36.306] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-26 09:35:11.136] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:35:11.710] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-26 09:37:28.599] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:37:29.298] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-26 09:37:55.340] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:37:55.346] [main] ERROR i.f.di.rb.pdfextractor.Main - Mandatory field -i is missing...
+[2023-05-26 09:37:55.347] [main] ERROR i.f.di.rb.pdfextractor.Main - Invalid arguments
+[2023-05-26 09:38:15.740] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:38:16.378] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 42 - REGISTRO IVA VENDITE                     
+[2023-05-26 09:39:35.908] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:39:36.464] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:40:45.266] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:40:45.727] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:41:09.865] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:41:10.277] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:43:23.210] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:43:23.622] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:44:31.176] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:44:31.587] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:44:46.119] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:44:46.618] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:46:05.894] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:46:06.324] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:46:40.338] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:46:40.752] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:48:11.843] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:48:12.299] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:49:29.716] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:49:29.796] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene:  - 
+[2023-05-26 09:49:45.812] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:49:45.894] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene:  - 
+[2023-05-26 09:51:36.709] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:51:37.189] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:52:17.748] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:52:18.171] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:56:49.505] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:56:49.910] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:59:00.041] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:59:00.592] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:59:21.747] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:59:22.160] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 09:59:36.512] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 09:59:36.911] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE                                  
+[2023-05-26 10:19:23.121] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 10:19:23.623] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE   
+[2023-05-26 10:19:38.493] [main] INFO  i.f.di.rb.pdfextractor.Main - *********** PDF BOX - STARTED ***********
+[2023-05-26 10:19:39.089] [main] INFO  i.f.di.rb.pdfextractor.Main - il file contiene: 28 - REGISTRO IVA ACQUISTI AUTOFATTURE
