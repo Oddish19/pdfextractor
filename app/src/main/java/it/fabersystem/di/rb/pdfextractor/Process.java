@@ -13,10 +13,13 @@ import java.util.regex.Pattern;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 public class Process {
-    
+    private static final Logger logger = LoggerFactory.getLogger(Process.class);
+
     public static String categoria (Path PDFfile){
         String datiestratti = "";
         
@@ -69,7 +72,7 @@ public class Process {
             System.out.println("Nessun match per la regex N. report");
         }
         String categoria = Nreport +" - " +titolo;
-        categoria = categoria.substring(0, categoria.length() -34);
+       
         return categoria;  
         
     }
@@ -102,15 +105,15 @@ public class Process {
     
             // Aggiungi dati all'ArrayList
             dataList.add(nomefile);
-            dataList.add(societa);
+            dataList.add(societa.replaceAll("\r\n", "").replaceAll("\n", ""));
             dataList.add("VATREP");
-            dataList.add(annomese);
+            dataList.add(annomese.substring(0, 4));
             dataList.add(categoria1);
             dataList.add("1");
             dataList.add(String.valueOf(pag));
-            dataList.add(annomese.substring(0, 4));
+            dataList.add(annomese);
             dataList.add(annomese.substring(4, 6));
-            dataList.add("\r");
+           // dataList.add("\r\n");
             for (int i = 0; i < dataList.size(); i++) {
                 String element = dataList.get(i);
                 element = element.replaceAll("\n", "");
@@ -125,6 +128,7 @@ public class Process {
         }
        
     }
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public static int numpag(Path PDFfile){
         try {
@@ -153,13 +157,13 @@ public class Process {
             newStr.append(s + ";");
         });
 
-        String outString = newStr.toString().substring(0, newStr.length() - 1);
+        String outString =  newStr.toString().substring(0, newStr.length() - 1);
 
         try {
             Files.writeString(writePath, outString, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
         } catch (IOException e) {
-            System.err.println("Can't write file to path -> " + writePath.toAbsolutePath());
-            throw new RuntimeException("AOO non riesco a scrivere DC");
+            logger.error("Can't write file to path -> " + writePath.toAbsolutePath(),e);
+            throw new RuntimeException("non riesco a scrivere nel documento");
         }
     }
    

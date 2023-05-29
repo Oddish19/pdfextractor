@@ -17,7 +17,7 @@
             "request": "launch",
             "mainClass": "it.fabersystem.di.rb.pdfextractor.Main",
             "projectName": "app",
-            "args": "-i C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT02_VATREP_202202_2023_05_24_14_31_18.pdf -c C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT02_VATREP_202202_2023_05_24_14_31_18.PDF.CSV -o C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\OUT"
+            "args": "-i C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT04_VATREP_202203_2023_05_26_08_54_50.pdf -c C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\RBIT04_VATREP_202203_2023_05_26_08_54_50.pdf.CSV -o C:\\Users\\marco.oddi\\Desktop\\pdfbox\\app\\src\\test\\resources\\OUT"
 
         }
     ]
